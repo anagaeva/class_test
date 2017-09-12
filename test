@@ -89,5 +89,4 @@ else
         echo "2 , Jump file is not created" >> /root/results.txt 2> /dev/null
 fi
 
-cat  /root/results.txt
-rm /root/results.txt
+cp -rf /root/results.txt /var/www/html/index.html
